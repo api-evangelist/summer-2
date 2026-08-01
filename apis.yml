@@ -1,8 +1,30 @@
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 aid: summer-2
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summer-2.png
 name: Summer 2
-description: 'Summer 2 is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'SummerOS (formerly reached at gosummer.com, which now 308-redirects to summeros.com)
+  is an AI-driven asset-intelligence platform for short-term rental operators, owners, investors,
+  and property managers. It provides professional-grade revenue forecasting, competitive market
+  intelligence, and portfolio-wide performance analytics, plus an AI assistant (Sunny AI), so
+  short-term rental teams can make data-driven pricing and investment decisions instead of relying
+  on spreadsheets. It connects to property-management systems (Guesty, Hospitable, Streamline, Track)
+  rather than exposing a public developer API. Surfaced as a QED Investors portfolio lead and enriched
+  from its live public surface.'
 url: https://raw.githubusercontent.com/api-evangelist/summer-2/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +32,21 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'gosummer.com 308-redirects to summeros.com (site-deprecation). No public API/developer surface
+  found as of 2026-07-21; profile reflects the live SummerOS product surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Fintech
+- Short-Term Rental
+- Vacation Rental
+- Property Management
+- Analytics
+- Revenue Management
+- Proptech
+- Artificial Intelligence
+- Market Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/summer-2-domain-security.yml
 - type: Website
-  url: http://www.gosummer.com
+  url: https://www.summeros.com
+- type: Documentation
+  url: https://helpcenter.summeros.com/
+- type: Support
+  url: https://helpcenter.summeros.com/
+- type: Pricing
+  url: https://www.summeros.com/pricing
+- type: SignUp
+  url: https://login.summeros.com/sign-up
+- type: TermsOfService
+  url: https://www.summeros.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.summeros.com/legal/privacy-policy
