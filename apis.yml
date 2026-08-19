@@ -34,7 +34,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-note: 'gosummer.com 308-redirects to summeros.com (site-deprecation). No public API/developer surface
   found as of 2026-07-21; profile reflects the live SummerOS product surface.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
