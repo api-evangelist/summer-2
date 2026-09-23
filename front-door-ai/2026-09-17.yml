@@ -1,0 +1,26 @@
+# Front Door AI Index — summer-2 — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: summer-2
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.summeros.com
+  final_host: www.summeros.com
+  ownership: own
+  owner: summer-2
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 14.45
+  words: 346
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 7
+  top_terms:
+    intelligence: 7
+    AI: 5
