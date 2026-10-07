@@ -75,6 +75,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/summer-2-plans-pricing.yml
 - type: DomainSecurity
   url: security/summer-2-domain-security.yml
 - type: Website
