@@ -1,0 +1,52 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.summeros.com/pricing
+sources:
+- https://www.summeros.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Monthly/Annually toggle shown; Lite priced for 30-day access, Lite+ per month with $5 per extra
+  property.
+plan_count: 4
+currency: USD
+plans:
+- name: Lite
+  price_text: $ 50
+  price: 50
+  currency: USD
+  period: one-time
+  unit: 30-day access
+  included_quota: 20 Sunny AI chat queries per day; Unlimited market search access; Unlimited projections;
+    1 user seat
+- name: Lite+
+  price_text: $ 19
+  price: 19
+  currency: USD
+  period: month
+  unit: 1 property included
+  included_quota: Everything in Lite, plus PMS integration, full property analytics, portfolio insights,
+    up to 2 user seats
+  overage: +$5 per extra property
+- name: Forecast Pro
+  price_text: Custom pricing
+  period: none
+  included_quota: Full access to Sunny AI chat; unlimited market search; unlimited projections; unlimited
+    term sheets; up to 20 user seats
+- name: SummerOS Pro
+  price_text: Custom pricing
+  period: none
+  included_quota: Everything in Forecast Pro, plus first-party data access, PMS integration, full analytics,
+    report creation tools
+rate_limit_statements:
+- 20 Sunny AI chat queries per day
+- AI Chat Queries 20/day
